@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(41, 41, 41);
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    color: black;
+    background-color: white;
+    padding: 2em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a.active, header a:active {
+    color: rgb(255,105,97)
+}
+
+.restrict-width{
+    max-width: 50em;
+    width: 100vw;
+    margin: auto;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 1.5em;
+    float: left;
+}
+
+nav{
+    float: right;
+    padding: 0.25em;
+}
+
+nav ul{
+    margin: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    border-right: 1px solid rgb(232, 232, 232);
+}
+
+nav ul li:last-of-type{
+    border-right: none;
+}
+
+nav ul li a{
+    padding: 0 0.5em;
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+section#slider{
+    background-color: #FBCF5E;
+}
